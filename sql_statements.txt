@@ -1,0 +1,14 @@
+CREATE DATABASE IF NOT EXISTS `ajax;`
+USE `ajax`;
+CREATE TABLE IF NOT EXISTS `comments` (
+    `id` INT(11) PRIMARY KEY AUTO_INCREMENT NOT NULL,
+    `author` VARCHAR(50) NOT NULL,
+    `comment` TEXT(1000) NOT NULL
+);
+
+INSERT INTO `comments` (`id`, `author`, `comment`) VALUES (NULL, 'user1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing diam donec adipiscing tristique. Aliquam malesuada bibendum arcu vitae elementum. Malesuada bibendum arcu vitae elementum curabitur vitae nunc sed velit.');
+INSERT INTO `comments` (`id`, `author`, `comment`) VALUES (NULL, 'user2', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing diam donec adipiscing tristique. Aliquam malesuada bibendum arcu vitae elementum. Malesuada bibendum arcu vitae elementum curabitur vitae nunc sed velit.');
+INSERT INTO `comments` (`id`, `author`, `comment`) VALUES (NULL, 'user3', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing diam donec adipiscing tristique. Aliquam malesuada bibendum arcu vitae elementum. Malesuada bibendum arcu vitae elementum curabitur vitae nunc sed velit.');
+INSERT INTO `comments` (`id`, `author`, `comment`) VALUES (NULL, 'user4', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing diam donec adipiscing tristique. Aliquam malesuada bibendum arcu vitae elementum. Malesuada bibendum arcu vitae elementum curabitur vitae nunc sed velit.');
+INSERT INTO `comments` (`id`, `author`, `comment`) VALUES (NULL, 'user5', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing diam donec adipiscing tristique. Aliquam malesuada bibendum arcu vitae elementum. Malesuada bibendum arcu vitae elementum curabitur vitae nunc sed velit.');
+INSERT INTO `comments` (`id`, `author`, `comment`) VALUES (NULL, 'user6', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing diam donec adipiscing tristique. Aliquam malesuada bibendum arcu vitae elementum. Malesuada bibendum arcu vitae elementum curabitur vitae nunc sed velit.');
